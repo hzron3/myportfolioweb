@@ -34,7 +34,7 @@ nav{
 }
 .nav-item a:hover{
     color: lightseagreen;
-    border-bottom: 2px solid crimson;
+    /* border-bottom: 2px solid crimson; */
 
 }
 .navbar-toggler{
@@ -53,6 +53,11 @@ header{
     box-sizing: border-box;
     padding: 20px 10px;
 }
+
+.navbar-toggler-icon{
+    width:30px;
+    margin:0 auto;
+}
 #mode{
     width:40px;
     background-size: cover;
@@ -65,7 +70,7 @@ header{
 /* == Services Overview Styling== */
 .services{
     width: 80%;
-    margin: 10px auto;
+    margin: 5px auto;
     text-align: center;
 }
 .services h2{
@@ -73,18 +78,23 @@ width: 237px;
 text-align: center;
 color: rgb(20, 220, 153);
 letter-spacing: 2px;
-font-size: 24px;
+font-size: 18px;
 font-weight: 400;
 /* text-transform: uppercase; */
-margin: 10px auto;
+margin: 0 auto;
 padding: 10px 10px;
-border-bottom: 1px solid var(--secondary-color);
+
 transition: 1s;
+}
+#service-border{
+    border-bottom: 2px solid var(--secondary-color);
+    width:7%;
+    margin:0 auto;
 }
 .services h2:hover{
 width: 240px;
 color: tomato;
-border-bottom: 2px solid rgb(20, 220, 153);
+/* border-bottom: 2px solid rgb(20, 220, 153); */
 transform: translateX(5px);
 }
 /* ======== END======== */
@@ -98,7 +108,7 @@ transform: translateX(5px);
     justify-content: space-evenly;
     flex-direction: row-reverse;
     padding: 70px 40px;
-    margin: 20px auto;
+    margin: 0 auto;
     /* border: 1px solid black; */
 }
 .about-me p{
@@ -186,21 +196,22 @@ transform: translateX(5px);
     transform: translateY(-1px);
 }
 .skill h2{
-    width: 50%;
+    /* width: 70%; */
     color:crimson;
     text-align: center;
-    font-size:20px;
+    font-size:18px;
     letter-spacing: 2px;
     font-weight: 400;
     padding: 10px 10px;
     margin: 5px auto;
-    border-bottom: 2px solid teal;
+    /* border-bottom: 2px solid teal; */
 }
 .skill p{
-    padding: 20px 20px;
+    margin: 5px auto;
+    padding: 10px 20px;
     color: var(--secondary-color);
     text-align: left;
-    font: size 18px;
+    font: size 16px;
     letter-spacing:1px;
     line-height: 1.5rem;
 }
@@ -216,7 +227,7 @@ transform: translateX(5px);
 .advert p{
     margin-bottom: 30px;
     color: rgb(20, 220, 153);
-    font-size: 22px;
+    font-size: 16px;
     letter-spacing: 1px;
 }
 .advert img{
@@ -244,7 +255,7 @@ transform: translateX(5px);
     margin: 5px auto;
 }
 #icons i img{
-    width:25px;
+    width:50px;
     border-radius:50%;
     background-size:cover;
 }
@@ -252,7 +263,7 @@ transform: translateX(5px);
     margin: 0 5px;
     text-decoration: none;
     color: var(--secondary-color);
-    font-size: 18px;
+    font-size: 14px;
     letter-spacing: 1.5px;
 }
 #copy-rights{
@@ -263,7 +274,7 @@ transform: translateX(5px);
 #copy-rights p{
     color: var(--secondary-color);
     margin: 5px auto;
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 1.5px;
     text-align: center;
 }
@@ -282,7 +293,7 @@ transform: translateX(5px);
     text-align: center;
     color: crimson;
     letter-spacing: 2px;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 400;
     /* text-transform: uppercase; */
     margin: 10px auto;
@@ -330,7 +341,7 @@ transform: translateX(5px);
 }
 #skill h3{
     text-align: center;
-    font-size:20px;
+    font-size:18px;
     letter-spacing: 2px;
     font-weight: 400;
     color: rgb(0, 128, 79);
@@ -339,7 +350,7 @@ transform: translateX(5px);
 #skill p{
     color: var(--secondary-color);
     text-align: left;
-    font: size 18px;
+    font: size 16px;
     letter-spacing:1px;
     line-height: 1.5rem;
 }
@@ -382,7 +393,7 @@ transform: translateX(5px);
 }
 #project h3{
     text-align: center;
-    font-size:20px;
+    font-size:18px;
     letter-spacing: 2px;
     font-weight: 400;
     color: rgb(0, 128, 79);
@@ -391,7 +402,7 @@ transform: translateX(5px);
 #project p{
     color: var(--secondary-color);
     text-align: left;
-    font: size 18px;
+    font: size 16px;
     letter-spacing:1px;
     line-height: 1.5rem;
 }
@@ -406,7 +417,7 @@ transform: translateX(5px);
     margin: 10px 0;
     text-transform: uppercase;
     text-align: center;
-    font-size:20px;
+    font-size:18px;
     letter-spacing: 2px;
     font-weight: 400;
     color: rgb(0, 128, 79);
@@ -434,7 +445,7 @@ transform: translateX(5px);
     padding: 10px 5px;
     display: block;
     width: 90%;
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 1px;
     background-color: var(--primary-color);
     color: var(--secondary-color);
@@ -450,7 +461,7 @@ transform: translateX(5px);
     border-radius: 0.5rem;
     padding:5px 5px;
     color: var(--secondary-color);
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 1px;
 }
 .btn{
@@ -538,6 +549,10 @@ transform: translateX(5px);
     .btn button{
         padding: 6px 8px;
     }
+    #icons i img{
+        width:40px;
+
+    }
 }
 @media (max-width: 300px) {
     .about-me{
@@ -546,7 +561,7 @@ transform: translateX(5px);
   
     }
     .about-me p{
-        font-size: 20px;
+        font-size: 16px;
     }
     .about-me img{
         width: 100px;
@@ -560,7 +575,7 @@ transform: translateX(5px);
         height: 100px;
     }
     .advert p{
-        font-size: 18px;
+        font-size: 16px;
     }
     #icons{
         display: grid;
@@ -568,6 +583,10 @@ transform: translateX(5px);
     }
     #icons i a{
         font-size: 16px;
+    }
+    #icons i img{
+        width:30px;
+
     }
     #copy-rights p{
         font-size: 16px;
