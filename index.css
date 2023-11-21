@@ -245,7 +245,7 @@ transform: translateX(5px);
 }
 #icons{
     padding: 10px 10px;
-    width: 80%;
+    width: 70%;
     margin: 5px auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -255,7 +255,7 @@ transform: translateX(5px);
     margin: 5px auto;
 }
 #icons i img{
-    width:50px;
+    width:42px;
     border-radius:50%;
     background-size:cover;
 }
